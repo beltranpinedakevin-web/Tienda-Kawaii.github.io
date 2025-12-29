@@ -1,0 +1,39 @@
+.producto-tarjeta {
+    width: 280px;
+    background-color: antiquewhite;
+    border-radius: 12px;
+    text-align: center;
+    margin:10px;
+    display: inline-block;
+}
+
+.producto-img {
+    width: 100%;
+    height: 280px;
+    object-fit: contain;
+}
+
+.producto-titulo {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.producto-desc {
+    font-size: 14px;
+    color: brown;
+}
+
+.producto-btn {
+    background-color: chocolate;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.producto-btn:hover {
+    background-color: brown;
+}
